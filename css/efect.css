@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.card {
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    background: white;
+}
+.card:hover .card-effect{
+    bottom: 0;
+    transition: bottom 1s;
+}
+.card-effect{
+    background: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 100%;
+}
