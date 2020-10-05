@@ -103,7 +103,7 @@ function submitcar(){
 }
 function editcar(){ //esta es la parte que lo edita
     
-	const model= document.getElementById('model').value;
+    const model= document.getElementById('model').value;
     const year= document.getElementById('year').value;
     const color= document.getElementById('color').value;
     const trademark =document.getElementById('trademark').value;
@@ -114,12 +114,12 @@ function editcar(){ //esta es la parte que lo edita
     editingcar.trademark=trademark
     editingcar.price=price
     printcars();
-	editingcar=false;
-    model ='';
-    year ='';
-    color = '';
-    trademark='';
-    price='';
+	editingcar=false;  
+    document.getElementById(model).value='';
+    document.getElementById(year).value ='';
+    document.getElementById(color).value = '';
+    document.getElementById(trademark).value='';
+    document.getElementById(price).value='';
 
 }
 function editcarButon(id){
