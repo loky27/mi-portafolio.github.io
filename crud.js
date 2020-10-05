@@ -115,11 +115,11 @@ function editcar(){ //esta es la parte que lo edita
     editingcar.price=price
     printcars();
 	editingcar=false;  
-    document.getElementById(model).value='';
-    document.getElementById(year).value ='';
-    document.getElementById(color).value = '';
-    document.getElementById(trademark).value='';
-    document.getElementById(price).value='';
+    document.getElementById(model).value=''
+    document.getElementById(year).value =''
+    document.getElementById(color).value = ''
+    document.getElementById(trademark).value=''
+    document.getElementById(price).value=''
 
 }
 function editcarButon(id){
