@@ -115,11 +115,11 @@ function editcar(){ //esta es la parte que lo edita
     editingcar.price=price
     printcars();
 	editingcar=false;
-    model =''
-    year =''
-    color = ''
-    trademark=''
-    price=''
+    model ='';
+    year ='';
+    color = '';
+    trademark='';
+    price='';
 
 }
 function editcarButon(id){
